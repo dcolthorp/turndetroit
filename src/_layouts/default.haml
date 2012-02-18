@@ -4,7 +4,8 @@
     %title StaticMatic
     %meta{name: "viewport", content: "width=device-width, initial-scale=1.0"}
 
-    = stylesheets
+    = stylesheets "bootstrap", "bootstrap-responsive", "site"
   %body
-    .container
-      = yield
+    .decoration
+      .container
+        = yield

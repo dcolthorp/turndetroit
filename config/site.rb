@@ -5,7 +5,12 @@
 
 configuration.preview_server_port = 4000
 configuration.default_template_engine = :haml
-configuration.preview_server_host = "localhost"
+#configuration.preview_server_host = "localhost"
+
+
+ip = IPSocket.getaddress(Socket.gethostname)
+configuration.preview_server_host = ip
+puts "Running on #{ip}"
 
 # # # #
 # Configure any Tilt template engine you want.

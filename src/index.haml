@@ -1,7 +1,44 @@
-.row
-  .span2
-    %h2 Left sidebar
-    %p some text would go here, you.
-  .span10
-    %h2 Main content
-    %p More text can go in here.
+.project-page
+  %h1 Brush Park Community Garden 
+
+  %p Turn this empty space into beautiful vegetables.
+
+  .row
+    .span9
+
+    .span2
+      %ul.unstyled
+        %li 151 Backers
+        %li $2,390 Pledged
+        %li of $5000 goal
+
+    .span1
+      %form#donate-form.form-inline
+        %select
+          %option $50
+        %input{:type => "submit", :value => "Donate"}
+
+  .row
+    .span9
+      %h2 The Vision
+
+      %p lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      %p Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+
+      .team
+        %h2 The Team
+
+        %ul.unstyled
+          %li.row
+            .span4.offset1
+              <strong>Jill Jackson</strong> is a Master gardener. She's lived in the are for 20 years and wants to help make fresh produce available to the neighborhood.
+            .span3
+              %img.photo{:src => "/img/gardener.jpg"}
+            .span1
+
+    .location.span3
+      %h2 The Location
+
+      %img{:src => "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Edmund_Streetscape_Detroit_Woodward_East.jpg/250px-Edmund_Streetscape_Detroit_Woodward_East.jpg"}/
+      %p Brush Park Historic District is a 24 block neighborhood located within Midtown Detroit, Michigan and designated by the city.[2][3] It is bounded by Mack Avenue on the north, Woodward Avenue on the west, Beaubien Street on the east, and the Fisher Freeway on the south. The neighborhood is experiencing restorations of its historic Gilded Age, French Renaissance Revival, Victorian style homes and luring new residents.
+      %img.map{:src => "http://maps.googleapis.com/maps/api/staticmap?markers=brush+park+detroit+mi&zoom=14&size=300x300&sensor=false"}/
