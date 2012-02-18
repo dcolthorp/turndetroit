@@ -1,6 +1,7 @@
 $grey: #b1b7ba;
 
 html,body {
+  font-family: "Helvetica Nue",Helvetica,sans-serif;
   background-color: white;
   color: black;
 }
@@ -29,6 +30,9 @@ html,body {
 
 .project-page {
   .team {
+  }
+  h2 {
+    color: #637994;
   }
 }
 
