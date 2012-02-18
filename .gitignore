@@ -2,3 +2,5 @@ build/
 config/amazon.yml
 tags
 .*
+*.DS_Store
+**/*.DS_Store
