@@ -28,7 +28,7 @@
     </control>
     <control controlID="20" controlTypeID="com.balsamiq.mockups::Paragraph" x="753" y="525" w="303" h="85" measuredW="200" measuredH="140" zOrder="6" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>The%20lot%20at%203015%20Beaubien%20St.%20is%20vacant.%20We%20would%20like%20to%20build%20a%20garden%20here%20for%20our%20neighborhood%20but%20it%20needs%20cleaning%20up%20that%20we%20can%27t%20complete%20on%20our%20own.%20The%20space%20will%20be%20much%20prettier%20growing%20beets%2C%20lettuices%2C%20and%20tomatos%20instead%20of%20collecting%20refuse.</text>
+        <text>The%20lot%20at%203015%20Beaubien%20St.%20is%20vacant.%20We%20would%20like%20to%20build%20a%20garden%20here%20for%20our%20neighborhood%20but%20it%20needs%20cleaning%20up%20that%20we%20can%27t%20complete%20on%20our%20own.%20The%20space%20will%20be%20much%20prettier%20growing%20beets%2C%20lettuces%2C%20and%20tomatos%20instead%20of%20collecting%20refuse.</text>
       </controlProperties>
     </control>
     <control controlID="24" controlTypeID="com.balsamiq.mockups::Label" x="753" y="490" w="-1" h="-1" measuredW="87" measuredH="26" zOrder="8" locked="false" isInGroup="-1">
