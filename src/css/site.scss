@@ -1,11 +1,22 @@
 $grey: #b1b7ba;
 
 html,body {
-  background-color: $grey;
+  background-color: white;
+  color: black;
 }
 
 .decoration {
-  background-color: #e2e8ee;
+  .header {
+    h1 {
+      height: 35px;
+      padding: 10px;
+      background: $grey url(/img/header.png) right 10px no-repeat;
+      background-size: 240px;
+    }
+  }
+}
+
+.container {
   padding: 1em;
 }
 
