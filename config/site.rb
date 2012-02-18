@@ -9,7 +9,7 @@ configuration.default_template_engine = :haml
 
 
 ip = IPSocket.getaddress(Socket.gethostname)
-configuration.preview_server_host = ip
+configuration.preview_server_host = "172.255.1.125"
 puts "Running on #{ip}"
 
 # # # #

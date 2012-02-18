@@ -1,4 +1,8 @@
 $grey: #b1b7ba;
+$green: #809c99;
+$purple: #8f8ca7;
+
+@import "compass/css3/border-radius";
 
 html,body {
   background-color: white;
@@ -32,3 +36,37 @@ html,body {
   }
 }
 
+.container {
+  background-color: white;
+}
+
+@mixin call-out {
+  @include border-radius(4px);
+  background-color: $purple;
+  color: white;
+  font-size: 150%;
+}
+
+.support {
+  @include call-out;
+
+  margin-bottom: 2em;
+
+  > * {
+    padding: 0.5em;
+  }
+
+  strong {
+    font-size: 150%;
+    line-height: 150%;
+    color: lighten($purple, 30%);
+  }
+}
+
+.donate {
+  @include call-out;
+  background-color: $green;
+  > * {
+    padding: 0.5em;
+  }
+}
