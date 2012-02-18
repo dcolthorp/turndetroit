@@ -5,18 +5,22 @@
 
   .row
     .span9
+      %img{:src => "/img/sculpture_garden_photo.jpg"}
 
-    .span2
-      %ul.unstyled
-        %li 151 Backers
-        %li $2,390 Pledged
-        %li of $5000 goal
+    .span3
+      .row
+        .support.span3
+          %ul.unstyled
+            %li <strong>151</strong> backers
+            %li <strong>$2,390</strong> pledged
+            %li of <strong>$5000</strong> goal
 
-    .span1
-      %form#donate-form.form-inline
-        %select
-          %option $50
-        %input{:type => "submit", :value => "Donate"}
+      .row
+        .donate.span3
+          %form#donate-form.form-inline
+            %select
+              %option $50
+            %input{:type => "submit", :value => "Donate"}
 
   .row
     .span9
