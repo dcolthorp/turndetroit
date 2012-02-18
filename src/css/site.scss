@@ -4,6 +4,13 @@ $purple: #8f8ca7;
 
 @import "compass/css3/border-radius";
 
+@mixin call-out {
+  @include border-radius(4px);
+  background-color: $purple;
+  color: white;
+  font-size: 150%;
+}
+
 html,body {
   font-family: "Helvetica Nue",Helvetica,sans-serif;
   background-color: white;
@@ -32,45 +39,37 @@ html,body {
   }
 }
 
-.project-page {
-  .team {
-  }
-  h2 {
-    color: #637994;
-  }
-}
-
 .container {
   background-color: white;
 }
 
-@mixin call-out {
-  @include border-radius(4px);
-  background-color: $purple;
-  color: white;
-  font-size: 150%;
+h1,h2,h3,h4,h5,h6 {
+  color: #637994;
 }
 
-.support {
-  @include call-out;
+.project-page {
 
-  margin-bottom: 2em;
+  .support {
+    @include call-out;
 
-  > * {
-    padding: 0.5em;
+    margin-bottom: 2em;
+
+    > * {
+      padding: 0.5em;
+    }
+
+    strong {
+      font-size: 150%;
+      line-height: 150%;
+      color: lighten($purple, 30%);
+    }
   }
 
-  strong {
-    font-size: 150%;
-    line-height: 150%;
-    color: lighten($purple, 30%);
-  }
-}
-
-.donate {
-  @include call-out;
-  background-color: $green;
-  > * {
-    padding: 0.5em;
+  .donate {
+    @include call-out;
+    background-color: $green;
+    > * {
+      padding: 0.5em;
+    }
   }
 }
