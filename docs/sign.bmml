@@ -1,0 +1,66 @@
+<mockup version="1.0" skin="sketch" measuredW="953" measuredH="534" mockupW="757" mockupH="470">
+  <controls>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Canvas" x="196" y="64" w="757" h="470" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="-1"/>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Title" x="217" y="79" w="-1" h="-1" measuredW="236" measuredH="37" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <size>28</size>
+        <text>turn%20this%20space%20into</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Title" x="217" y="131" w="721" h="-1" measuredW="840" measuredH="72" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>60</size>
+        <text>Brush%20Park%20Community%20Garden</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Image" x="858" y="441" w="61" h="65" measuredW="280" measuredH="280" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>../../../Desktop/img.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Label" x="217" y="417" w="-1" h="-1" measuredW="90" measuredH="26" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>18</size>
+        <text>The%20Team</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="__group__" x="232" y="443" w="303" h="75" measuredW="303" measuredH="75" zOrder="5" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Image" x="0" y="0" w="54" h="60" measuredW="77" measuredH="79" zOrder="0" locked="false" isInGroup="7"/>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="69" y="0" w="89" h="23" measuredW="89" measuredH="24" zOrder="1" locked="false" isInGroup="7">
+          <controlProperties>
+            <size>16</size>
+            <text>Jill%20Jackson</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Paragraph" x="69" y="23" w="234" h="52" measuredW="200" measuredH="140" zOrder="2" locked="false" isInGroup="7">
+          <controlProperties>
+            <text>Master%20gardener%0ADetroit%20resident%20for%2010%20years</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::Paragraph" x="252" y="316" w="209" h="24" measuredW="200" measuredH="140" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>20</size>
+        <text>Funding%20goal%3A%20%245%2C000</text>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::Paragraph" x="252" y="364" w="667" h="28" measuredW="200" measuredH="140" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>Contribute%20online%3A%20turndetroit.com/brushparkgarden</text>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::Paragraph" x="252" y="205" w="667" h="89" measuredW="200" measuredH="140" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>This%20lot%20at%203015%20Beaubien%20St.%20is%20vacant.%20We%20would%20like%20to%20build%20a%20garden%20here%20for%20our%20neighborhood%20but%20it%20needs%20cleaning%20up%20that%20we%20can%27t%20complete%20on%20our%20own.%20The%20space%20will%20be%20much%20prettier%20growing%20beets%2C%20lettuices%2C%20and%20tomatos%20instead%20of%20collecting%20refuse.</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
