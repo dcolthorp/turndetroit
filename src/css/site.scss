@@ -6,8 +6,13 @@ $purple: #8f8ca7;
 
 html,body {
   font-family: "Helvetica Nue",Helvetica,sans-serif;
-  background-color: white;
+  background-color: $grey;
   color: black;
+}
+
+img {
+  border: 8px solid white;
+  @include border-radius(8px);
 }
 
 .decoration {
@@ -41,7 +46,6 @@ html,body {
 }
 
 .container {
-  background-color: white;
 }
 
 @mixin call-out {
