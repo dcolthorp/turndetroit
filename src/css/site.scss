@@ -1,6 +1,7 @@
 $grey: #b1b7ba;
 $green: #809c99;
 $purple: #8f8ca7;
+$blue: #637994;
 
 @import "compass/css3/border-radius";
 
@@ -13,24 +14,33 @@ $purple: #8f8ca7;
 
 html,body {
   font-family: "Helvetica Nue",Helvetica,sans-serif;
-  background-color: $grey;
-  color: black;
+  background-color: $blue;
+  color: darken($grey, 40%);
+  font-size: 16px;
+  line-height: 1.5;
+}
+p {
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 img {
-  border: 8px solid white;
-  @include border-radius(8px);
+  border: solid 4px white;
 }
 
-.decoration {
-  .header {
-    h1 {
-      height: 35px;
-      padding: 10px;
-      background: $grey url(/img/header.png) right 10px no-repeat;
-      background-size: 240px;
-    }
+.header {
+  padding: 0;
+  margin-right: -16px;
+  background-color: transparent;
+  h1 {
+    height: 50px;
+    padding: 10px 0;
+    background: transparent url(/img/header.png) right 10px no-repeat;
+    background-size: 240px;
   }
+}
+.well {
+  border-color: #888;
 }
 
 .container {
@@ -38,11 +48,13 @@ img {
 }
 
 .container {
+  background-color: $grey;
 }
+
 
 h1,h2,h3,h4,h5,h6 {
   font-family: Abel;
-  color: #637994;
+  color: $blue;
 }
 
 .project-page {
