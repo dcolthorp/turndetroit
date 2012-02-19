@@ -1,6 +1,7 @@
 $grey: #b1b7ba;
 $green: #809c99;
 $purple: #8f8ca7;
+$orange: #e2ae66;
 $blue: #637994;
 
 @import "compass/css3/border-radius";
@@ -45,9 +46,6 @@ img {
 
 .container {
   padding: 1em;
-}
-
-.container {
   background-color: $grey;
 }
 
@@ -58,6 +56,17 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .project-page {
+  h1, .main h2 {
+    background: $orange;
+    color: white;
+    padding: 3px;
+  }
+
+  .main h2 {
+    background-color: $blue;
+  }
+
+
   .video {
     margin-bottom: 1em;
   }

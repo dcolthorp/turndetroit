@@ -106,9 +106,8 @@
         <text>Master%20gardener%0ADetroit%20resident%20for%2010%20years</text>
       </controlProperties>
     </control>
-    <control controlID="57" controlTypeID="com.balsamiq.mockups::iPhone" x="364" y="566" w="282" h="510" measuredW="282" measuredH="510" zOrder="18" locked="false" isInGroup="-1"/>
-    <control controlID="58" controlTypeID="com.balsamiq.mockups::iPhone" x="60" y="568" w="282" h="510" measuredW="282" measuredH="510" zOrder="19" locked="false" isInGroup="-1"/>
-    <control controlID="59" controlTypeID="com.balsamiq.mockups::Canvas" x="82" y="730" w="233" h="39" measuredW="100" measuredH="70" zOrder="20" locked="false" isInGroup="-1">
+    <control controlID="58" controlTypeID="com.balsamiq.mockups::iPhone" x="60" y="568" w="282" h="510" measuredW="282" measuredH="510" zOrder="18" locked="false" isInGroup="-1"/>
+    <control controlID="59" controlTypeID="com.balsamiq.mockups::Canvas" x="82" y="730" w="233" h="39" measuredW="100" measuredH="70" zOrder="19" locked="false" isInGroup="-1">
       <controlProperties>
         <backgroundAlpha>0.25</backgroundAlpha>
         <borderColor>16777215</borderColor>
@@ -116,7 +115,7 @@
         <color>0</color>
       </controlProperties>
     </control>
-    <control controlID="60" controlTypeID="__group__" x="91" y="780" w="135" h="74" measuredW="135" measuredH="74" zOrder="21" locked="false" isInGroup="-1">
+    <control controlID="60" controlTypeID="__group__" x="91" y="780" w="135" h="74" measuredW="135" measuredH="74" zOrder="20" locked="false" isInGroup="-1">
       <groupChildrenDescriptors>
         <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="0" y="0" w="-1" h="-1" measuredW="103" measuredH="26" zOrder="0" locked="false" isInGroup="60">
           <controlProperties>
@@ -140,30 +139,30 @@
         </control>
       </groupChildrenDescriptors>
     </control>
-    <control controlID="61" controlTypeID="com.balsamiq.mockups::Button" x="237" y="821" w="-1" h="-1" measuredW="65" measuredH="27" zOrder="22" locked="false" isInGroup="-1">
+    <control controlID="61" controlTypeID="com.balsamiq.mockups::Button" x="237" y="821" w="-1" h="-1" measuredW="65" measuredH="27" zOrder="21" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Donate</text>
       </controlProperties>
     </control>
-    <control controlID="62" controlTypeID="com.balsamiq.mockups::ComboBox" x="237" y="790" w="65" h="-1" measuredW="56" measuredH="23" zOrder="23" locked="false" isInGroup="-1">
+    <control controlID="62" controlTypeID="com.balsamiq.mockups::ComboBox" x="237" y="790" w="65" h="-1" measuredW="56" measuredH="23" zOrder="22" locked="false" isInGroup="-1">
       <controlProperties>
         <text>%2450</text>
       </controlProperties>
     </control>
-    <control controlID="63" controlTypeID="com.balsamiq.mockups::Paragraph" x="91" y="667" w="217" h="63" measuredW="200" measuredH="140" zOrder="24" locked="false" isInGroup="-1">
+    <control controlID="63" controlTypeID="com.balsamiq.mockups::Paragraph" x="91" y="667" w="217" h="63" measuredW="200" measuredH="140" zOrder="23" locked="false" isInGroup="-1">
       <controlProperties>
         <size>24</size>
         <text>Brush%20Park%20%0ACommunity%20Garden</text>
       </controlProperties>
     </control>
-    <control controlID="64" controlTypeID="com.balsamiq.mockups::Label" x="91" y="730" w="210" h="39" measuredW="300" measuredH="22" zOrder="25" locked="false" isInGroup="-1">
+    <control controlID="64" controlTypeID="com.balsamiq.mockups::Label" x="91" y="730" w="210" h="39" measuredW="300" measuredH="22" zOrder="24" locked="false" isInGroup="-1">
       <controlProperties>
         <bold>false</bold>
         <size>14</size>
         <text>Turn%20this%20empty%20space%20into%20beautiful%20vegetables.</text>
       </controlProperties>
     </control>
-    <control controlID="65" controlTypeID="__group__" x="127" y="884" w="147" h="103" measuredW="147" measuredH="103" zOrder="26" locked="false" isInGroup="-1">
+    <control controlID="65" controlTypeID="__group__" x="127" y="884" w="147" h="103" measuredW="147" measuredH="103" zOrder="25" locked="false" isInGroup="-1">
       <groupChildrenDescriptors>
         <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="147" h="103" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="65"/>
         <control controlID="1" controlTypeID="com.balsamiq.mockups::Icon" x="65" y="43" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="1" locked="false" isInGroup="65">
@@ -173,18 +172,10 @@
         </control>
       </groupChildrenDescriptors>
     </control>
-    <control controlID="66" controlTypeID="com.balsamiq.mockups::ModalScreen" x="84" y="648" w="231" h="347" measuredW="320" measuredH="240" zOrder="27" locked="false" isInGroup="-1"/>
-    <control controlID="67" controlTypeID="com.balsamiq.mockups::Alert" x="91" y="742" w="217" h="142" measuredW="200" measuredH="127" zOrder="28" locked="false" isInGroup="-1">
+    <control controlID="66" controlTypeID="com.balsamiq.mockups::ModalScreen" x="84" y="648" w="231" h="347" measuredW="320" measuredH="240" zOrder="26" locked="false" isInGroup="-1"/>
+    <control controlID="67" controlTypeID="com.balsamiq.mockups::Alert" x="91" y="742" w="217" h="142" measuredW="200" measuredH="127" zOrder="27" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Donate%20%2450%0ATo%20Brush%20Park%20Community%20Garden%0ACancel%2C%20Donate</text>
-      </controlProperties>
-    </control>
-    <control controlID="68" controlTypeID="com.balsamiq.mockups::Arrow" x="289" y="287" w="34" h="293" measuredW="150" measuredH="100" zOrder="29" locked="false" isInGroup="-1">
-      <controlProperties>
-        <curvature>0</curvature>
-        <direction>top</direction>
-        <leftArrow>false</leftArrow>
-        <text>click</text>
       </controlProperties>
     </control>
   </controls>
